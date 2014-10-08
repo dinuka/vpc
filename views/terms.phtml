@@ -1,0 +1,15 @@
+<?php ob_start() ?>
+
+<h2>Terms and Conditions</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam molestie tristique libero sit amet laoreet.
+    Morbi lacinia aliquet nisl, at auctor magna facilisis et. Sed in risus facilisis, dictum ex laoreet, dapibus ex.
+    Pellentesque est lacus, molestie a leo a, posuere malesuada dolor. Donec fermentum hendrerit sem, gravida
+    placerat augue malesuada ut. Vivamus eget arcu vel turpis tristique feugiat id eget leo. In ut nisi
+    efficitur ipsum elementum viverra. Ut vel euismod nunc. Nulla sed libero arcu. Aenean at augue feugiat,
+    consectetur eros gravida, condimentum est. Vestibulum nibh mauris, consectetur congue molestie et,
+    pellentesque ut velit. Cras non porttitor turpis. </p>
+
+<?php $content = ob_get_clean() ?>
+
+<?php include 'layout.phtml'; ?>
